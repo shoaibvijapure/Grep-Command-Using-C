@@ -33,3 +33,8 @@ I will be implementing  i, w, q, n, f, o, m, b, c, v, H, h options.
 10) -v : displays all non-matching lines.
 11) -H : prints filename for each matched lines containing pattern.
 12) -h : Display matched lines, but don't display filenames.
+
+### EXECUTING THE PROJECT ###
+
+1. Run the Makefile by just typing make in terminal/shell.
+2. Usage: ./mygrep [PATTERN]... [FILES]...
