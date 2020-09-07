@@ -1,0 +1,23 @@
+./project grep try.txt
+./project  mis *
+./project  -i options try.txt
+./project  -i searches *
+./project  -c options *
+./project  -n options *
+./project  -b options *
+./project  -f ptr.txt try.txt notexistfile.txt grepmain.c
+./project  -m 3 description try.txt notexistfile.txt grepmain.c
+./project  -o grep try.txt notexistfile.txt grepmain.c
+./project  -i -v -n grep try.txt notexistfile.txt try.txt
+./project -i -n -b -H grep try.txt
+./project -i -n -b -H -c grep try.txt
+./project -i -n -b -H -c MIS *
+./project -i -n -b -H -m 2 project *
+./project -i -n -b title *
+./project -i -H grep try.txt
+./project -i -m1 options *
+./project -i  -H -f ptr.txt try.txt
+./project -i -m1 -H inverse *
+./project -q ptr.txt try.txt
+./project -q f unexistantfile try.txt
+
